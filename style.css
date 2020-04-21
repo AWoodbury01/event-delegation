@@ -1,0 +1,25 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'avondalesample', Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+
+h2 {
+
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'avondalesample';
+    src: url('../avondale-sample-webfont.woff2') format('woff2'),
+         url('../avondale-sample-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
