@@ -2,24 +2,25 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    font-family: 'avondalesample', Arial, Helvetica, sans-serif;
+    font-family: 'avondalesample', 'great outdoors';
     font-weight:normal;
     font-style:normal;
 }
 
-h2 {
 
+@font-face {
+    font-family: 'great outdoors';
+    /* src: url(webfontkit-20200421-100754/avondale-sample-webfont.woff2); */
+    src: 
+        url('./webfontkit-20200421-100754/avondale-sample-webfont.woff') format("woff"),
+        url('./webfontkit-20200421-100754/thegreatoutdoors-sample-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
+
+
 form {
     display: flex;
     justify-content: center;
 }
 
-@font-face {
-    font-family: 'avondalesample';
-    src: url('../avondale-sample-webfont.woff2') format('woff2'),
-         url('../avondale-sample-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
